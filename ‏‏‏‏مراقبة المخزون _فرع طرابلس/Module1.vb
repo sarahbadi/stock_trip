@@ -207,25 +207,25 @@ Module Module1
 
             ' ''==========”«—…================
 
-            'Dim strconnect As String = "Data Source=" & NameServer & ";Integrated Security=True"
+            Dim strconnect As String = "Data Source=" & NameServer & ";Integrated Security=True"
 
-            'cn.ConnectionString = strconnect
+            cn.ConnectionString = strconnect
 
 
             ' '' ''=====··‘»ﬂ…==
 
 
 
-            Dim NameServe As String = NameServer & "User ID=" & AdminDBNameUser & ";Password=" & AdminDBPassword
+            'Dim NameServe As String = NameServer & "User ID=" & AdminDBNameUser & ";Password=" & AdminDBPassword
 
-            cn.ConnectionString = NameServe
-            Try
-                My.Settings.Item("dbm_CConnectionString") = NameServe
+            'cn.ConnectionString = NameServe
+            'Try
+            '    My.Settings.Item("dbm_CConnectionString") = NameServe
 
 
-            Catch ex As Exception
+            'Catch ex As Exception
 
-            End Try
+            'End Try
             '=======
 
 
