@@ -1,0 +1,152 @@
+D:\v1_مخازن\Wind_stock\bin\x86\Debug\Wind_stock.exe.config
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\bin\x86\Debug\Wind_stock.exe.config
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\bin\x86\Debug\Wind_stock.exe
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\bin\x86\Debug\Wind_stock.pdb
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\bin\x86\Debug\Wind_stock.xml
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\bin\x86\Debug\xpcommoncontrols.dll
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form3.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Fw_part.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Formisu_sub.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.FormRcsub.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Formtrn.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_Isu.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_RCV.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_sum.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.messagee.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.msg_q.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_event.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_infbuy.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form2.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.matt_return.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.FIO.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form1.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form10.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form11.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form12.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form13.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.matt_bay.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form15.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_t.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form4.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form5.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form6.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form7.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form8.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form9.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_balance.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_inf.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.F_part.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.main.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Resources.resources
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.vbproj.GenerateResource.Cache
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.exe
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.xml
+C:\Users\Dell\Desktop\vb_2018\v1.1.1\obj\x86\Debug\Wind_stock.pdb
+C:\Users\Dell\Desktop\vb_20181\v1.1.1\bin\x86\Debug\Wind_stock.exe.config
+C:\Users\Dell\Desktop\vb_20181\v1.1.1\obj\x86\Debug\Wind_stock.exe
+C:\Users\Dell\Desktop\vb_20181\v1.1.1\obj\x86\Debug\Wind_stock.xml
+C:\Users\Dell\Desktop\vb_20181\v1.1.1\obj\x86\Debug\Wind_stock.pdb
+D:\Evb_2018\v1.1.1\bin\x86\Debug\Wind_stock.exe.config
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.exe
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.xml
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.pdb
+D:\Evb_2018\v1.1.1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form3.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Fw_part.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Formisu_sub.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.FormRcsub.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Formtrn.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_Isu.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_RCV.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_sum.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.messagee.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.msg_q.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_event.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_infbuy.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form2.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.matt_return.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.FIO.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form1.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form10.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form11.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form12.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form13.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.matt_bay.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form15.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_t.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form4.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form5.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form6.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form7.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form8.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form9.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_balance.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Form_inf.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.F_part.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.main.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.Resources.resources
+D:\Evb_2018\v1.1.1\obj\x86\Debug\Wind_stock.vbproj.GenerateResource.Cache
+D:\Evb_2018\v1.1.1\bin\x86\Debug\Wind_stock.exe
+D:\Evb_2018\v1.1.1\bin\x86\Debug\Wind_stock.pdb
+D:\Evb_2018\v1.1.1\bin\x86\Debug\Wind_stock.xml
+D:\Evb_2018\v1.1.1\bin\x86\Debug\xpcommoncontrols.dll
+D:\منظومه المخازن  للاداره وغرب بنغازي\‫stouc_center2020\v1.2.1\bin\x86\Debug\Wind_stock.exe.config
+D:\منظومه المخازن  للاداره وغرب بنغازي\‫stouc_center2020\v1.2.1\obj\x86\Debug\Wind_stock.exe
+D:\منظومه المخازن  للاداره وغرب بنغازي\‫stouc_center2020\v1.2.1\obj\x86\Debug\Wind_stock.xml
+D:\منظومه المخازن  للاداره وغرب بنغازي\‫stouc_center2020\v1.2.1\obj\x86\Debug\Wind_stock.pdb
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\Wind_stock.exe.config
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\Wind_stock.exe
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\Wind_stock.pdb
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\Wind_stock.xml
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\DevComponents.DotNetBar2.dll
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\bin\x86\Debug\xpcommoncontrols.dll
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form12.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form13.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.FrmLogin.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_est.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form14.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form16.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form17.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form18.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form3.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form7.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Formsalh.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_inf.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_TRET.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Fw_part.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Formisu_sub.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.FormRcsub.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Formtrn.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_Isu.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_RCV.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_sum.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.F_T.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.F_tgrer.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.messagee.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.msg_q.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_event.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_infbuy.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form2.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.matt_return.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.FIO.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form1.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form10.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form11.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.matt_bay.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form15.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_t.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form4.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form5.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form6.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form8.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form9.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Form_balance.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.F_part.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.main.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.Resources.resources
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.vbproj.GenerateResource.Cache
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.exe
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.xml
+D:\منظومه المخازن  للاداره وغرب بنغازي\مراقبة المخزون نسخه_2021\‏‏مراقبه مخزون الفرع2021\obj\x86\Debug\Wind_stock.pdb

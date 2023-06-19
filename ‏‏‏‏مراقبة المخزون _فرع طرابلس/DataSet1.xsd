@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbmConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbmConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wind_stock.My.MySettings.GlobalReference.Default.dbmConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbm_CConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbm_CConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wind_stock.My.MySettings.GlobalReference.Default.dbm_CConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="card_naTableAdapter" GeneratorDataComponentClassName="card_naTableAdapter" Name="card_na" UserDataComponentName="card_naTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.card_n" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT date_inf, info_is, no_c, qun_t, price, tr_no, n_type, name_snc, balance, iopb, no_ct, j_h, qmt, cont_c FROM dbo.card_n</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="date_inf" DataSetColumn="date_inf" />
+              <Mapping SourceColumn="info_is" DataSetColumn="info_is" />
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="qun_t" DataSetColumn="qun_t" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="tr_no" DataSetColumn="tr_no" />
+              <Mapping SourceColumn="n_type" DataSetColumn="n_type" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="balance" DataSetColumn="balance" />
+              <Mapping SourceColumn="iopb" DataSetColumn="iopb" />
+              <Mapping SourceColumn="no_ct" DataSetColumn="no_ct" />
+              <Mapping SourceColumn="j_h" DataSetColumn="j_h" />
+              <Mapping SourceColumn="qmt" DataSetColumn="qmt" />
+              <Mapping SourceColumn="cont_c" DataSetColumn="cont_c" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="hrkTableAdapter" GeneratorDataComponentClassName="hrkTableAdapter" Name="hrk" UserDataComponentName="hrkTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.hrk" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT no_c, name_snc, n_type, name_type, balance, iopb, iiss, irct, quntity, price, tr_name, no_ct, [returns] FROM dbo.hrk</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="n_type" DataSetColumn="n_type" />
+              <Mapping SourceColumn="name_type" DataSetColumn="name_type" />
+              <Mapping SourceColumn="balance" DataSetColumn="balance" />
+              <Mapping SourceColumn="iopb" DataSetColumn="iopb" />
+              <Mapping SourceColumn="iiss" DataSetColumn="iiss" />
+              <Mapping SourceColumn="irct" DataSetColumn="irct" />
+              <Mapping SourceColumn="quntity" DataSetColumn="quntity" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="tr_name" DataSetColumn="tr_name" />
+              <Mapping SourceColumn="no_ct" DataSetColumn="no_ct" />
+              <Mapping SourceColumn="returns" DataSetColumn="returns" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inbayTableAdapter" GeneratorDataComponentClassName="inbayTableAdapter" Name="inbay" UserDataComponentName="inbayTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.inbay" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT n_t, no_c, name_snc, name_type, date_f, kart, name1, mda, n, m, md, qun_s, balance, state, no_ct1 FROM dbo.inbay</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="n_t" DataSetColumn="n_t" />
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="name_type" DataSetColumn="name_type" />
+              <Mapping SourceColumn="date_f" DataSetColumn="date_f" />
+              <Mapping SourceColumn="kart" DataSetColumn="kart" />
+              <Mapping SourceColumn="name1" DataSetColumn="name1" />
+              <Mapping SourceColumn="mda" DataSetColumn="mda" />
+              <Mapping SourceColumn="n" DataSetColumn="n" />
+              <Mapping SourceColumn="m" DataSetColumn="m" />
+              <Mapping SourceColumn="md" DataSetColumn="md" />
+              <Mapping SourceColumn="qun_s" DataSetColumn="qun_s" />
+              <Mapping SourceColumn="balance" DataSetColumn="balance" />
+              <Mapping SourceColumn="state" DataSetColumn="state" />
+              <Mapping SourceColumn="no_ct1" DataSetColumn="no_ct1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="matt_kTableAdapter" GeneratorDataComponentClassName="matt_kTableAdapter" Name="matt_k" UserDataComponentName="matt_kTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.matt_k" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT no_c, name_snc, n_type, no_ct, no_ct1 FROM dbo.matt_k</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="n_type" DataSetColumn="n_type" />
+              <Mapping SourceColumn="no_ct" DataSetColumn="no_ct" />
+              <Mapping SourceColumn="no_ct1" DataSetColumn="no_ct1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="moves_prodcfTableAdapter" GeneratorDataComponentClassName="moves_prodcfTableAdapter" Name="moves_prodcf" UserDataComponentName="moves_prodcfTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.moves_prodcf" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT info_is, date_inf, no_c, qun_t, price, tr_name, ISDATE, ySDATE FROM dbo.moves_prodcf</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="info_is" DataSetColumn="info_is" />
+              <Mapping SourceColumn="date_inf" DataSetColumn="date_inf" />
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="qun_t" DataSetColumn="qun_t" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="tr_name" DataSetColumn="tr_name" />
+              <Mapping SourceColumn="ISDATE" DataSetColumn="ISDATE" />
+              <Mapping SourceColumn="ySDATE" DataSetColumn="ySDATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="msrofatTableAdapter" GeneratorDataComponentClassName="msrofatTableAdapter" Name="msrofat" UserDataComponentName="msrofatTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbm_CConnectionString (MySettings)" DbObjectName="dbm_C.dbo.msrofat" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT no_s, no_c, name_snc, name_type, qun_s, sal_s, gema, no_ct, balance, date_s, name_s, u_name, no_ct1, tvg, mt, q_div FROM dbo.msrofat</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_s" DataSetColumn="no_s" />
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="name_type" DataSetColumn="name_type" />
+              <Mapping SourceColumn="qun_s" DataSetColumn="qun_s" />
+              <Mapping SourceColumn="sal_s" DataSetColumn="sal_s" />
+              <Mapping SourceColumn="gema" DataSetColumn="gema" />
+              <Mapping SourceColumn="no_ct" DataSetColumn="no_ct" />
+              <Mapping SourceColumn="balance" DataSetColumn="balance" />
+              <Mapping SourceColumn="date_s" DataSetColumn="date_s" />
+              <Mapping SourceColumn="name_s" DataSetColumn="name_s" />
+              <Mapping SourceColumn="u_name" DataSetColumn="u_name" />
+              <Mapping SourceColumn="no_ct1" DataSetColumn="no_ct1" />
+              <Mapping SourceColumn="tvg" DataSetColumn="tvg" />
+              <Mapping SourceColumn="mt" DataSetColumn="mt" />
+              <Mapping SourceColumn="q_div" DataSetColumn="q_div" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="bal_no1TableAdapter" GeneratorDataComponentClassName="bal_no1TableAdapter" Name="bal_no1" UserDataComponentName="bal_no1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbm_CConnectionString (MySettings)" DbObjectName="dbm_C.dbo.bal_no1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT no_c, name_snc, Squn_s, Squn_r, Squn_t, sal_s, n_type, qss, no_ct1, gima, Sumun_TT FROM dbo.bal_no1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="sal_s" DataSetColumn="sal_s" />
+              <Mapping SourceColumn="n_type" DataSetColumn="n_type" />
+              <Mapping SourceColumn="no_ct1" DataSetColumn="no_ct1" />
+              <Mapping SourceColumn="gima" DataSetColumn="gima" />
+              <Mapping SourceColumn="Squn_s" DataSetColumn="Squn_s1" />
+              <Mapping SourceColumn="Squn_r" DataSetColumn="Squn_r1" />
+              <Mapping SourceColumn="Squn_t" DataSetColumn="Squn_t1" />
+              <Mapping SourceColumn="qss" DataSetColumn="qss1" />
+              <Mapping SourceColumn="Sumun_TT" DataSetColumn="Sumun_TT1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="estelamTableAdapter" GeneratorDataComponentClassName="estelamTableAdapter" Name="estelam" UserDataComponentName="estelamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbm_CConnectionString (MySettings)" DbObjectName="dbm_C.dbo.estelam" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT no_i, no_c, name_snc, name_type, date_i, name_r, qun_r, sal_s, gema, no_ct, n_txt, g_b, tvg, u_name, no_ct1, mt, n1_txt, name_stock FROM dbo.estelam</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_i" DataSetColumn="no_i" />
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_snc" DataSetColumn="name_snc" />
+              <Mapping SourceColumn="name_type" DataSetColumn="name_type" />
+              <Mapping SourceColumn="date_i" DataSetColumn="date_i" />
+              <Mapping SourceColumn="name_r" DataSetColumn="name_r" />
+              <Mapping SourceColumn="qun_r" DataSetColumn="qun_r" />
+              <Mapping SourceColumn="sal_s" DataSetColumn="sal_s" />
+              <Mapping SourceColumn="gema" DataSetColumn="gema" />
+              <Mapping SourceColumn="no_ct" DataSetColumn="no_ct" />
+              <Mapping SourceColumn="n_txt" DataSetColumn="n_txt" />
+              <Mapping SourceColumn="g_b" DataSetColumn="g_b" />
+              <Mapping SourceColumn="tvg" DataSetColumn="tvg" />
+              <Mapping SourceColumn="u_name" DataSetColumn="u_name" />
+              <Mapping SourceColumn="no_ct1" DataSetColumn="no_ct1" />
+              <Mapping SourceColumn="mt" DataSetColumn="mt" />
+              <Mapping SourceColumn="n1_txt" DataSetColumn="n1_txt" />
+              <Mapping SourceColumn="name_stock" DataSetColumn="name_stock" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_clsTableAdapter" GeneratorDataComponentClassName="View_clsTableAdapter" Name="View_cls" UserDataComponentName="View_clsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbm_CConnectionString (MySettings)" DbObjectName="dbm_C.dbo.View_cls" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT no_c, name_type FROM dbo.View_cls</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="name_type" DataSetColumn="name_type" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hrk" msprop:Generator_UserTableName="hrk" msprop:Generator_RowDeletedName="hrkRowDeleted" msprop:Generator_RowChangedName="hrkRowChanged" msprop:Generator_RowClassName="hrkRow" msprop:Generator_RowChangingName="hrkRowChanging" msprop:Generator_RowEvArgName="hrkRowChangeEvent" msprop:Generator_RowEvHandlerName="hrkRowChangeEventHandler" msprop:Generator_TableClassName="hrkDataTable" msprop:Generator_TableVarName="tablehrk" msprop:Generator_RowDeletingName="hrkRowDeleting" msprop:Generator_TablePropName="hrk">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="n_type" msprop:Generator_UserColumnName="n_type" msprop:Generator_ColumnPropNameInRow="n_type" msprop:Generator_ColumnVarNameInTable="columnn_type" msprop:Generator_ColumnPropNameInTable="n_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_type" msprop:Generator_UserColumnName="name_type" msprop:Generator_ColumnPropNameInRow="name_type" msprop:Generator_ColumnVarNameInTable="columnname_type" msprop:Generator_ColumnPropNameInTable="name_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="balance" msprop:Generator_UserColumnName="balance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInTable="balanceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="iopb" msprop:Generator_UserColumnName="iopb" msprop:Generator_ColumnPropNameInRow="iopb" msprop:Generator_ColumnVarNameInTable="columniopb" msprop:Generator_ColumnPropNameInTable="iopbColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="iiss" msprop:Generator_UserColumnName="iiss" msprop:Generator_ColumnPropNameInRow="iiss" msprop:Generator_ColumnVarNameInTable="columniiss" msprop:Generator_ColumnPropNameInTable="iissColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="irct" msprop:Generator_UserColumnName="irct" msprop:Generator_ColumnPropNameInRow="irct" msprop:Generator_ColumnVarNameInTable="columnirct" msprop:Generator_ColumnPropNameInTable="irctColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="quntity" msprop:Generator_UserColumnName="quntity" msprop:Generator_ColumnPropNameInRow="quntity" msprop:Generator_ColumnVarNameInTable="columnquntity" msprop:Generator_ColumnPropNameInTable="quntityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tr_name" msprop:Generator_UserColumnName="tr_name" msprop:Generator_ColumnPropNameInRow="tr_name" msprop:Generator_ColumnVarNameInTable="columntr_name" msprop:Generator_ColumnPropNameInTable="tr_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct" msprop:Generator_UserColumnName="no_ct" msprop:Generator_ColumnPropNameInRow="no_ct" msprop:Generator_ColumnVarNameInTable="columnno_ct" msprop:Generator_ColumnPropNameInTable="no_ctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="returns" msprop:Generator_UserColumnName="returns" msprop:Generator_ColumnPropNameInRow="returns" msprop:Generator_ColumnVarNameInTable="columnreturns" msprop:Generator_ColumnPropNameInTable="returnsColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inbay" msprop:Generator_UserTableName="inbay" msprop:Generator_RowDeletedName="inbayRowDeleted" msprop:Generator_RowChangedName="inbayRowChanged" msprop:Generator_RowClassName="inbayRow" msprop:Generator_RowChangingName="inbayRowChanging" msprop:Generator_RowEvArgName="inbayRowChangeEvent" msprop:Generator_RowEvHandlerName="inbayRowChangeEventHandler" msprop:Generator_TableClassName="inbayDataTable" msprop:Generator_TableVarName="tableinbay" msprop:Generator_RowDeletingName="inbayRowDeleting" msprop:Generator_TablePropName="inbay">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="n_t" msprop:Generator_UserColumnName="n_t" msprop:Generator_ColumnPropNameInRow="n_t" msprop:Generator_ColumnVarNameInTable="columnn_t" msprop:Generator_ColumnPropNameInTable="n_tColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_type" msprop:Generator_UserColumnName="name_type" msprop:Generator_ColumnPropNameInRow="name_type" msprop:Generator_ColumnVarNameInTable="columnname_type" msprop:Generator_ColumnPropNameInTable="name_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_f" msprop:Generator_UserColumnName="date_f" msprop:Generator_ColumnPropNameInRow="date_f" msprop:Generator_ColumnVarNameInTable="columndate_f" msprop:Generator_ColumnPropNameInTable="date_fColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="kart" msprop:Generator_UserColumnName="kart" msprop:Generator_ColumnPropNameInRow="kart" msprop:Generator_ColumnVarNameInTable="columnkart" msprop:Generator_ColumnPropNameInTable="kartColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name1" msprop:Generator_UserColumnName="name1" msprop:Generator_ColumnPropNameInRow="name1" msprop:Generator_ColumnVarNameInTable="columnname1" msprop:Generator_ColumnPropNameInTable="name1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mda" msprop:Generator_UserColumnName="mda" msprop:Generator_ColumnPropNameInRow="mda" msprop:Generator_ColumnVarNameInTable="columnmda" msprop:Generator_ColumnPropNameInTable="mdaColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="n" msprop:Generator_UserColumnName="n" msprop:Generator_ColumnPropNameInRow="n" msprop:Generator_ColumnVarNameInTable="columnn" msprop:Generator_ColumnPropNameInTable="nColumn" type="xs:boolean" />
+              <xs:element name="m" msprop:Generator_UserColumnName="m" msprop:Generator_ColumnPropNameInRow="m" msprop:Generator_ColumnVarNameInTable="columnm" msprop:Generator_ColumnPropNameInTable="mColumn" type="xs:boolean" />
+              <xs:element name="md" msprop:Generator_UserColumnName="md" msprop:Generator_ColumnPropNameInRow="md" msprop:Generator_ColumnVarNameInTable="columnmd" msprop:Generator_ColumnPropNameInTable="mdColumn" type="xs:boolean" />
+              <xs:element name="qun_s" msprop:Generator_UserColumnName="qun_s" msprop:Generator_ColumnPropNameInRow="qun_s" msprop:Generator_ColumnVarNameInTable="columnqun_s" msprop:Generator_ColumnPropNameInTable="qun_sColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="balance" msprop:Generator_UserColumnName="balance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInTable="balanceColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="state" msprop:Generator_UserColumnName="state" msprop:Generator_ColumnPropNameInRow="state" msprop:Generator_ColumnVarNameInTable="columnstate" msprop:Generator_ColumnPropNameInTable="stateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct1" msprop:Generator_UserColumnName="no_ct1" msprop:Generator_ColumnPropNameInRow="no_ct1" msprop:Generator_ColumnVarNameInTable="columnno_ct1" msprop:Generator_ColumnPropNameInTable="no_ct1Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="matt_k" msprop:Generator_UserTableName="matt_k" msprop:Generator_RowDeletedName="matt_kRowDeleted" msprop:Generator_RowChangedName="matt_kRowChanged" msprop:Generator_RowClassName="matt_kRow" msprop:Generator_RowChangingName="matt_kRowChanging" msprop:Generator_RowEvArgName="matt_kRowChangeEvent" msprop:Generator_RowEvHandlerName="matt_kRowChangeEventHandler" msprop:Generator_TableClassName="matt_kDataTable" msprop:Generator_TableVarName="tablematt_k" msprop:Generator_RowDeletingName="matt_kRowDeleting" msprop:Generator_TablePropName="matt_k">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="n_type" msprop:Generator_UserColumnName="n_type" msprop:Generator_ColumnPropNameInRow="n_type" msprop:Generator_ColumnVarNameInTable="columnn_type" msprop:Generator_ColumnPropNameInTable="n_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct" msprop:Generator_UserColumnName="no_ct" msprop:Generator_ColumnPropNameInRow="no_ct" msprop:Generator_ColumnVarNameInTable="columnno_ct" msprop:Generator_ColumnPropNameInTable="no_ctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct1" msprop:Generator_UserColumnName="no_ct1" msprop:Generator_ColumnPropNameInRow="no_ct1" msprop:Generator_ColumnVarNameInTable="columnno_ct1" msprop:Generator_ColumnPropNameInTable="no_ct1Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="moves_prodcf" msprop:Generator_UserTableName="moves_prodcf" msprop:Generator_RowDeletedName="moves_prodcfRowDeleted" msprop:Generator_RowChangedName="moves_prodcfRowChanged" msprop:Generator_RowClassName="moves_prodcfRow" msprop:Generator_RowChangingName="moves_prodcfRowChanging" msprop:Generator_RowEvArgName="moves_prodcfRowChangeEvent" msprop:Generator_RowEvHandlerName="moves_prodcfRowChangeEventHandler" msprop:Generator_TableClassName="moves_prodcfDataTable" msprop:Generator_TableVarName="tablemoves_prodcf" msprop:Generator_RowDeletingName="moves_prodcfRowDeleting" msprop:Generator_TablePropName="moves_prodcf">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="info_is" msprop:Generator_UserColumnName="info_is" msprop:Generator_ColumnPropNameInRow="info_is" msprop:Generator_ColumnVarNameInTable="columninfo_is" msprop:Generator_ColumnPropNameInTable="info_isColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_inf" msprop:Generator_UserColumnName="date_inf" msprop:Generator_ColumnPropNameInRow="date_inf" msprop:Generator_ColumnVarNameInTable="columndate_inf" msprop:Generator_ColumnPropNameInTable="date_infColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qun_t" msprop:Generator_UserColumnName="qun_t" msprop:Generator_ColumnPropNameInRow="qun_t" msprop:Generator_ColumnVarNameInTable="columnqun_t" msprop:Generator_ColumnPropNameInTable="qun_tColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tr_name" msprop:Generator_UserColumnName="tr_name" msprop:Generator_ColumnPropNameInRow="tr_name" msprop:Generator_ColumnVarNameInTable="columntr_name" msprop:Generator_ColumnPropNameInTable="tr_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISDATE" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ISDATE" msprop:Generator_ColumnPropNameInRow="ISDATE" msprop:Generator_ColumnVarNameInTable="columnISDATE" msprop:Generator_ColumnPropNameInTable="ISDATEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ySDATE" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ySDATE" msprop:Generator_ColumnPropNameInRow="ySDATE" msprop:Generator_ColumnVarNameInTable="columnySDATE" msprop:Generator_ColumnPropNameInTable="ySDATEColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="msrofat" msprop:Generator_UserTableName="msrofat" msprop:Generator_RowDeletedName="msrofatRowDeleted" msprop:Generator_RowChangedName="msrofatRowChanged" msprop:Generator_RowClassName="msrofatRow" msprop:Generator_RowChangingName="msrofatRowChanging" msprop:Generator_RowEvArgName="msrofatRowChangeEvent" msprop:Generator_RowEvHandlerName="msrofatRowChangeEventHandler" msprop:Generator_TableClassName="msrofatDataTable" msprop:Generator_TableVarName="tablemsrofat" msprop:Generator_RowDeletingName="msrofatRowDeleting" msprop:Generator_TablePropName="msrofat">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_s" msprop:Generator_UserColumnName="no_s" msprop:Generator_ColumnVarNameInTable="columnno_s" msprop:Generator_ColumnPropNameInRow="no_s" msprop:Generator_ColumnPropNameInTable="no_sColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnPropNameInTable="no_cColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_type" msprop:Generator_UserColumnName="name_type" msprop:Generator_ColumnVarNameInTable="columnname_type" msprop:Generator_ColumnPropNameInRow="name_type" msprop:Generator_ColumnPropNameInTable="name_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qun_s" msprop:Generator_UserColumnName="qun_s" msprop:Generator_ColumnVarNameInTable="columnqun_s" msprop:Generator_ColumnPropNameInRow="qun_s" msprop:Generator_ColumnPropNameInTable="qun_sColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sal_s" msprop:Generator_UserColumnName="sal_s" msprop:Generator_ColumnVarNameInTable="columnsal_s" msprop:Generator_ColumnPropNameInRow="sal_s" msprop:Generator_ColumnPropNameInTable="sal_sColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="gema" msprop:Generator_UserColumnName="gema" msprop:Generator_ColumnVarNameInTable="columngema" msprop:Generator_ColumnPropNameInRow="gema" msprop:Generator_ColumnPropNameInTable="gemaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="no_ct" msprop:Generator_UserColumnName="no_ct" msprop:Generator_ColumnVarNameInTable="columnno_ct" msprop:Generator_ColumnPropNameInRow="no_ct" msprop:Generator_ColumnPropNameInTable="no_ctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="balance" msprop:Generator_UserColumnName="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnPropNameInTable="balanceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="date_s" msprop:Generator_UserColumnName="date_s" msprop:Generator_ColumnVarNameInTable="columndate_s" msprop:Generator_ColumnPropNameInRow="date_s" msprop:Generator_ColumnPropNameInTable="date_sColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="name_s" msprop:Generator_UserColumnName="name_s" msprop:Generator_ColumnVarNameInTable="columnname_s" msprop:Generator_ColumnPropNameInRow="name_s" msprop:Generator_ColumnPropNameInTable="name_sColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="u_name" msprop:Generator_UserColumnName="u_name" msprop:Generator_ColumnVarNameInTable="columnu_name" msprop:Generator_ColumnPropNameInRow="u_name" msprop:Generator_ColumnPropNameInTable="u_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct1" msprop:Generator_UserColumnName="no_ct1" msprop:Generator_ColumnVarNameInTable="columnno_ct1" msprop:Generator_ColumnPropNameInRow="no_ct1" msprop:Generator_ColumnPropNameInTable="no_ct1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="tvg" msprop:Generator_UserColumnName="tvg" msprop:Generator_ColumnVarNameInTable="columntvg" msprop:Generator_ColumnPropNameInRow="tvg" msprop:Generator_ColumnPropNameInTable="tvgColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mt" msprop:Generator_UserColumnName="mt" msprop:Generator_ColumnVarNameInTable="columnmt" msprop:Generator_ColumnPropNameInRow="mt" msprop:Generator_ColumnPropNameInTable="mtColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="q_div" msprop:Generator_UserColumnName="q_div" msprop:Generator_ColumnVarNameInTable="columnq_div" msprop:Generator_ColumnPropNameInRow="q_div" msprop:Generator_ColumnPropNameInTable="q_divColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="card_na" msprop:Generator_UserTableName="card_na" msprop:Generator_RowDeletedName="card_naRowDeleted" msprop:Generator_RowChangedName="card_naRowChanged" msprop:Generator_RowClassName="card_naRow" msprop:Generator_RowChangingName="card_naRowChanging" msprop:Generator_RowEvArgName="card_naRowChangeEvent" msprop:Generator_RowEvHandlerName="card_naRowChangeEventHandler" msprop:Generator_TableClassName="card_naDataTable" msprop:Generator_TableVarName="tablecard_na" msprop:Generator_RowDeletingName="card_naRowDeleting" msprop:Generator_TablePropName="card_na">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date_inf" msprop:Generator_UserColumnName="date_inf" msprop:Generator_ColumnPropNameInRow="date_inf" msprop:Generator_ColumnVarNameInTable="columndate_inf" msprop:Generator_ColumnPropNameInTable="date_infColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="info_is" msprop:Generator_UserColumnName="info_is" msprop:Generator_ColumnPropNameInRow="info_is" msprop:Generator_ColumnVarNameInTable="columninfo_is" msprop:Generator_ColumnPropNameInTable="info_isColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qun_t" msprop:Generator_UserColumnName="qun_t" msprop:Generator_ColumnPropNameInRow="qun_t" msprop:Generator_ColumnVarNameInTable="columnqun_t" msprop:Generator_ColumnPropNameInTable="qun_tColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tr_no" msprop:Generator_UserColumnName="tr_no" msprop:Generator_ColumnPropNameInRow="tr_no" msprop:Generator_ColumnVarNameInTable="columntr_no" msprop:Generator_ColumnPropNameInTable="tr_noColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="n_type" msprop:Generator_UserColumnName="n_type" msprop:Generator_ColumnPropNameInRow="n_type" msprop:Generator_ColumnVarNameInTable="columnn_type" msprop:Generator_ColumnPropNameInTable="n_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="balance" msprop:Generator_UserColumnName="balance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInTable="balanceColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="iopb" msprop:Generator_UserColumnName="iopb" msprop:Generator_ColumnPropNameInRow="iopb" msprop:Generator_ColumnVarNameInTable="columniopb" msprop:Generator_ColumnPropNameInTable="iopbColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="no_ct" msprop:Generator_UserColumnName="no_ct" msprop:Generator_ColumnPropNameInRow="no_ct" msprop:Generator_ColumnVarNameInTable="columnno_ct" msprop:Generator_ColumnPropNameInTable="no_ctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="j_h" msprop:Generator_UserColumnName="j_h" msprop:Generator_ColumnPropNameInRow="j_h" msprop:Generator_ColumnVarNameInTable="columnj_h" msprop:Generator_ColumnPropNameInTable="j_hColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qmt" msprop:Generator_UserColumnName="qmt" msprop:Generator_ColumnPropNameInRow="qmt" msprop:Generator_ColumnVarNameInTable="columnqmt" msprop:Generator_ColumnPropNameInTable="qmtColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="cont_c" msprop:Generator_UserColumnName="cont_c" msprop:Generator_ColumnPropNameInRow="cont_c" msprop:Generator_ColumnVarNameInTable="columncont_c" msprop:Generator_ColumnPropNameInTable="cont_cColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bal_no1" msprop:Generator_UserTableName="bal_no1" msprop:Generator_RowDeletedName="bal_no1RowDeleted" msprop:Generator_RowChangedName="bal_no1RowChanged" msprop:Generator_RowClassName="bal_no1Row" msprop:Generator_RowChangingName="bal_no1RowChanging" msprop:Generator_RowEvArgName="bal_no1RowChangeEvent" msprop:Generator_RowEvHandlerName="bal_no1RowChangeEventHandler" msprop:Generator_TableClassName="bal_no1DataTable" msprop:Generator_TableVarName="tablebal_no1" msprop:Generator_RowDeletingName="bal_no1RowDeleting" msprop:Generator_TablePropName="bal_no1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Squn_s" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Squn_s" msprop:Generator_ColumnPropNameInRow="Squn_s" msprop:Generator_ColumnVarNameInTable="columnSqun_s" msprop:Generator_ColumnPropNameInTable="Squn_sColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Squn_r" msprop:Generator_UserColumnName="Squn_r" msprop:Generator_ColumnPropNameInRow="Squn_r" msprop:Generator_ColumnVarNameInTable="columnSqun_r" msprop:Generator_ColumnPropNameInTable="Squn_rColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Squn_t" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Squn_t" msprop:Generator_ColumnPropNameInRow="Squn_t" msprop:Generator_ColumnVarNameInTable="columnSqun_t" msprop:Generator_ColumnPropNameInTable="Squn_tColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sal_s" msprop:Generator_UserColumnName="sal_s" msprop:Generator_ColumnPropNameInRow="sal_s" msprop:Generator_ColumnVarNameInTable="columnsal_s" msprop:Generator_ColumnPropNameInTable="sal_sColumn" type="xs:decimal" />
+              <xs:element name="n_type" msprop:Generator_UserColumnName="n_type" msprop:Generator_ColumnPropNameInRow="n_type" msprop:Generator_ColumnVarNameInTable="columnn_type" msprop:Generator_ColumnPropNameInTable="n_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qss" msdata:ReadOnly="true" msprop:Generator_UserColumnName="qss" msprop:Generator_ColumnPropNameInRow="qss" msprop:Generator_ColumnVarNameInTable="columnqss" msprop:Generator_ColumnPropNameInTable="qssColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="no_ct1" msprop:Generator_UserColumnName="no_ct1" msprop:Generator_ColumnPropNameInRow="no_ct1" msprop:Generator_ColumnVarNameInTable="columnno_ct1" msprop:Generator_ColumnPropNameInTable="no_ct1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="gima" msdata:ReadOnly="true" msprop:Generator_UserColumnName="gima" msprop:Generator_ColumnPropNameInRow="gima" msprop:Generator_ColumnVarNameInTable="columngima" msprop:Generator_ColumnPropNameInTable="gimaColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Sumun_TT" msprop:Generator_UserColumnName="Sumun_TT" msprop:Generator_ColumnPropNameInRow="Sumun_TT" msprop:Generator_ColumnVarNameInTable="columnSumun_TT" msprop:Generator_ColumnPropNameInTable="Sumun_TTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Squn_s1" msdata:ReadOnly="true" msdata:Caption="Squn_s" msprop:Generator_UserColumnName="Squn_s1" msprop:Generator_ColumnPropNameInRow="Squn_s1" msprop:Generator_ColumnVarNameInTable="columnSqun_s1" msprop:Generator_ColumnPropNameInTable="Squn_s1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Squn_r1" msdata:Caption="Squn_r" msprop:Generator_UserColumnName="Squn_r1" msprop:Generator_ColumnPropNameInRow="Squn_r1" msprop:Generator_ColumnVarNameInTable="columnSqun_r1" msprop:Generator_ColumnPropNameInTable="Squn_r1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Squn_t1" msdata:ReadOnly="true" msdata:Caption="Squn_t" msprop:Generator_UserColumnName="Squn_t1" msprop:Generator_ColumnPropNameInRow="Squn_t1" msprop:Generator_ColumnVarNameInTable="columnSqun_t1" msprop:Generator_ColumnPropNameInTable="Squn_t1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="qss1" msdata:ReadOnly="true" msdata:Caption="qss" msprop:Generator_UserColumnName="qss1" msprop:Generator_ColumnPropNameInRow="qss1" msprop:Generator_ColumnVarNameInTable="columnqss1" msprop:Generator_ColumnPropNameInTable="qss1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Sumun_TT1" msdata:Caption="Sumun_TT" msprop:Generator_UserColumnName="Sumun_TT1" msprop:Generator_ColumnPropNameInRow="Sumun_TT1" msprop:Generator_ColumnVarNameInTable="columnSumun_TT1" msprop:Generator_ColumnPropNameInTable="Sumun_TT1Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="estelam" msprop:Generator_UserTableName="estelam" msprop:Generator_RowDeletedName="estelamRowDeleted" msprop:Generator_RowChangedName="estelamRowChanged" msprop:Generator_RowClassName="estelamRow" msprop:Generator_RowChangingName="estelamRowChanging" msprop:Generator_RowEvArgName="estelamRowChangeEvent" msprop:Generator_RowEvHandlerName="estelamRowChangeEventHandler" msprop:Generator_TableClassName="estelamDataTable" msprop:Generator_TableVarName="tableestelam" msprop:Generator_RowDeletingName="estelamRowDeleting" msprop:Generator_TablePropName="estelam">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_i" msprop:Generator_UserColumnName="no_i" msprop:Generator_ColumnVarNameInTable="columnno_i" msprop:Generator_ColumnPropNameInRow="no_i" msprop:Generator_ColumnPropNameInTable="no_iColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnPropNameInTable="no_cColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_snc" msprop:Generator_UserColumnName="name_snc" msprop:Generator_ColumnVarNameInTable="columnname_snc" msprop:Generator_ColumnPropNameInRow="name_snc" msprop:Generator_ColumnPropNameInTable="name_sncColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_type" msprop:Generator_UserColumnName="name_type" msprop:Generator_ColumnVarNameInTable="columnname_type" msprop:Generator_ColumnPropNameInRow="name_type" msprop:Generator_ColumnPropNameInTable="name_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_i" msprop:Generator_UserColumnName="date_i" msprop:Generator_ColumnVarNameInTable="columndate_i" msprop:Generator_ColumnPropNameInRow="date_i" msprop:Generator_ColumnPropNameInTable="date_iColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="name_r" msprop:Generator_UserColumnName="name_r" msprop:Generator_ColumnVarNameInTable="columnname_r" msprop:Generator_ColumnPropNameInRow="name_r" msprop:Generator_ColumnPropNameInTable="name_rColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qun_r" msprop:Generator_UserColumnName="qun_r" msprop:Generator_ColumnVarNameInTable="columnqun_r" msprop:Generator_ColumnPropNameInRow="qun_r" msprop:Generator_ColumnPropNameInTable="qun_rColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="sal_s" msprop:Generator_UserColumnName="sal_s" msprop:Generator_ColumnVarNameInTable="columnsal_s" msprop:Generator_ColumnPropNameInRow="sal_s" msprop:Generator_ColumnPropNameInTable="sal_sColumn" type="xs:decimal" />
+              <xs:element name="gema" msprop:Generator_UserColumnName="gema" msprop:Generator_ColumnVarNameInTable="columngema" msprop:Generator_ColumnPropNameInRow="gema" msprop:Generator_ColumnPropNameInTable="gemaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="no_ct" msprop:Generator_UserColumnName="no_ct" msprop:Generator_ColumnVarNameInTable="columnno_ct" msprop:Generator_ColumnPropNameInRow="no_ct" msprop:Generator_ColumnPropNameInTable="no_ctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="n_txt" msprop:Generator_UserColumnName="n_txt" msprop:Generator_ColumnVarNameInTable="columnn_txt" msprop:Generator_ColumnPropNameInRow="n_txt" msprop:Generator_ColumnPropNameInTable="n_txtColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="g_b" msprop:Generator_UserColumnName="g_b" msprop:Generator_ColumnVarNameInTable="columng_b" msprop:Generator_ColumnPropNameInRow="g_b" msprop:Generator_ColumnPropNameInTable="g_bColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tvg" msprop:Generator_UserColumnName="tvg" msprop:Generator_ColumnVarNameInTable="columntvg" msprop:Generator_ColumnPropNameInRow="tvg" msprop:Generator_ColumnPropNameInTable="tvgColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="u_name" msprop:Generator_UserColumnName="u_name" msprop:Generator_ColumnVarNameInTable="columnu_name" msprop:Generator_ColumnPropNameInRow="u_name" msprop:Generator_ColumnPropNameInTable="u_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="no_ct1" msprop:Generator_UserColumnName="no_ct1" msprop:Generator_ColumnVarNameInTable="columnno_ct1" msprop:Generator_ColumnPropNameInRow="no_ct1" msprop:Generator_ColumnPropNameInTable="no_ct1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="mt" msprop:Generator_UserColumnName="mt" msprop:Generator_ColumnVarNameInTable="columnmt" msprop:Generator_ColumnPropNameInRow="mt" msprop:Generator_ColumnPropNameInTable="mtColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="n1_txt" msprop:Generator_UserColumnName="n1_txt" msprop:Generator_ColumnVarNameInTable="columnn1_txt" msprop:Generator_ColumnPropNameInRow="n1_txt" msprop:Generator_ColumnPropNameInTable="n1_txtColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_stock" msprop:Generator_UserColumnName="name_stock" msprop:Generator_ColumnVarNameInTable="columnname_stock" msprop:Generator_ColumnPropNameInRow="name_stock" msprop:Generator_ColumnPropNameInTable="name_stockColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_cls" msprop:Generator_UserTableName="View_cls" msprop:Generator_RowDeletedName="View_clsRowDeleted" msprop:Generator_RowChangedName="View_clsRowChanged" msprop:Generator_RowClassName="View_clsRow" msprop:Generator_RowChangingName="View_clsRowChanging" msprop:Generator_RowEvArgName="View_clsRowChangeEvent" msprop:Generator_RowEvHandlerName="View_clsRowChangeEventHandler" msprop:Generator_TableClassName="View_clsDataTable" msprop:Generator_TableVarName="tableView_cls" msprop:Generator_RowDeletingName="View_clsRowDeleting" msprop:Generator_TablePropName="View_cls">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_type" msprop:Generator_UserColumnName="name_type" msprop:Generator_ColumnPropNameInRow="name_type" msprop:Generator_ColumnVarNameInTable="columnname_type" msprop:Generator_ColumnPropNameInTable="name_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hrk" />
+      <xs:field xpath="mstns:no_c" />
+    </xs:unique>
+    <xs:unique name="inbay_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:inbay" />
+      <xs:field xpath="mstns:no_c" />
+    </xs:unique>
+    <xs:unique name="matt_k_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:matt_k" />
+      <xs:field xpath="mstns:no_c" />
+    </xs:unique>
+    <xs:unique name="bal_no1_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:bal_no1" />
+      <xs:field xpath="mstns:no_c" />
+    </xs:unique>
+    <xs:unique name="estelam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:estelam" />
+      <xs:field xpath="mstns:no_i" />
+      <xs:field xpath="mstns:no_c" />
+      <xs:field xpath="mstns:sal_s" />
+    </xs:unique>
+    <xs:unique name="View_cls_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_cls" />
+      <xs:field xpath="mstns:no_c" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

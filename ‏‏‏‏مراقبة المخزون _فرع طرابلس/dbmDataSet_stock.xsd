@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbmDataSet_stock" targetNamespace="http://tempuri.org/dbmDataSet_stock.xsd" xmlns:mstns="http://tempuri.org/dbmDataSet_stock.xsd" xmlns="http://tempuri.org/dbmDataSet_stock.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbmConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbmConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wind_stock.My.MySettings.GlobalReference.Default.dbmConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_stockTableAdapter" GeneratorDataComponentClassName="View_stockTableAdapter" Name="View_stock" UserDataComponentName="View_stockTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbmConnectionString1 (MySettings)" DbObjectName="dbm.dbo.View_stock" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT no_c, maxdate, sal_s FROM View_stock</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="no_c" DataSetColumn="no_c" />
+              <Mapping SourceColumn="maxdate" DataSetColumn="maxdate" />
+              <Mapping SourceColumn="sal_s" DataSetColumn="sal_s" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbmDataSet_stock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dbmDataSet_stock" msprop:Generator_DataSetName="dbmDataSet_stock" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_stock" msprop:Generator_UserTableName="View_stock" msprop:Generator_RowDeletedName="View_stockRowDeleted" msprop:Generator_RowChangedName="View_stockRowChanged" msprop:Generator_RowClassName="View_stockRow" msprop:Generator_RowChangingName="View_stockRowChanging" msprop:Generator_RowEvArgName="View_stockRowChangeEvent" msprop:Generator_RowEvHandlerName="View_stockRowChangeEventHandler" msprop:Generator_TableClassName="View_stockDataTable" msprop:Generator_TableVarName="tableView_stock" msprop:Generator_RowDeletingName="View_stockRowDeleting" msprop:Generator_TablePropName="View_stock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_c" msprop:Generator_UserColumnName="no_c" msprop:Generator_ColumnPropNameInRow="no_c" msprop:Generator_ColumnVarNameInTable="columnno_c" msprop:Generator_ColumnPropNameInTable="no_cColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="maxdate" msprop:Generator_UserColumnName="maxdate" msprop:Generator_ColumnPropNameInRow="maxdate" msprop:Generator_ColumnVarNameInTable="columnmaxdate" msprop:Generator_ColumnPropNameInTable="maxdateColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="qun_tot" msprop:Generator_UserColumnName="qun_tot" msprop:Generator_ColumnVarNameInTable="columnqun_tot" msprop:Generator_ColumnPropNameInRow="qun_tot" msprop:Generator_ColumnPropNameInTable="qun_totColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="sal_s" msprop:Generator_UserColumnName="sal_s" msprop:Generator_ColumnPropNameInRow="sal_s" msprop:Generator_ColumnVarNameInTable="columnsal_s" msprop:Generator_ColumnPropNameInTable="sal_sColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
