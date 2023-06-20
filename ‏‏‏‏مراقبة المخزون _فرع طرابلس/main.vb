@@ -37,6 +37,7 @@ Public Class main
 
     End Sub
     Private Sub main_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        ssf_t = 61
         If (sefa = "امين مخزن") Then
 
             ToolStripMenuItem16.Enabled = True
@@ -71,7 +72,7 @@ Public Class main
             تعديلToolStripMenuItem.Enabled = True
         End If
 
-       
+
         'SkinEngine1.SkinFile = "skins/ MidsummerColor1.ssk"
 
         If admin_sec = True Then
@@ -120,7 +121,7 @@ Public Class main
         'Me.LabelX3.Text = sefa
         'Dim culture As New Globalization.CultureInfo("ar-SA")
         'LabelX4.Text = Today.ToString("yyyy/MM/dd", culture)
-       
+
         'LabelX9.Text = " عددالاصناف التى تكاد تنفذ " & con & " "
         'LabelX9.Visible = True
 

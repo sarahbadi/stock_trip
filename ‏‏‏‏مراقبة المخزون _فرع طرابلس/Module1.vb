@@ -23,7 +23,7 @@ Module Module1
     Public mynewIDImporters As New Integer
 
 
-    Public coun_test, u As Integer
+    Public coun_test, u, ssf_t As Integer
     Public xl As String
     Public colors As Integer
     'Public cn As New SqlConnection("Data Source=.;Initial Catalog=dbm;Integrated Security=True")

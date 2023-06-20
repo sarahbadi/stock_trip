@@ -6,71 +6,819 @@ Wind_stock
 </name>
 </assembly>
 <members>
-<member name="T:Wind_stock.DataSetsara.estelamDataTable">
+<member name="T:Wind_stock.DataSet1.card_naDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Wind_stock.DataSetsara.msrofattDataTable">
+</member><member name="T:Wind_stock.DataSet1.hrkDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Wind_stock.DataSetsara.estelamRow">
+</member><member name="T:Wind_stock.DataSet1.inbayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.matt_kDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.moves_prodcfDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.msrofatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.bal_no1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.estelamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.View_clsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.card_naRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Wind_stock.DataSetsara.msrofattRow">
+</member><member name="T:Wind_stock.DataSet1.hrkRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:Wind_stock.DataSetsara.estelamRowChangeEvent">
+</member><member name="T:Wind_stock.DataSet1.inbayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.matt_kRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.moves_prodcfRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.msrofatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.bal_no1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.estelamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.View_clsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet1.card_naRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Wind_stock.DataSetsara.msrofattRowChangeEvent">
+</member><member name="T:Wind_stock.DataSet1.hrkRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:Wind_stock.DataSetsara">
+</member><member name="T:Wind_stock.DataSet1.inbayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.matt_kRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.moves_prodcfRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.msrofatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.bal_no1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.estelamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1.View_clsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet1">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:Wind_stock.DataSetsaraTableAdapters.estelamTableAdapter">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.card_naTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member><member name="T:Wind_stock.DataSetsaraTableAdapters.msrofattTableAdapter">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.hrkTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.inbayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.matt_kTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.moves_prodcfTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.msrofatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.bal_no1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.estelamTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet1TableAdapters.View_clsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Update rows in top-down order.
 </summary>
-</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Insert rows in top-down order.
 </summary>
-</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Delete rows in bottom-up order.
 </summary>
-</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
 </summary>
-</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSetsara)">
+</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet1)">
 	<summary>
 Update all changes to the dataset.
 </summary>
-</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateOrderOption">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
 	<summary>
 Update Order Option
 </summary>
-</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.SelfReferenceComparer">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
 	<summary>
 Used to sort self-referenced table's rows
 </summary>
-</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager">
+</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.DataSet4.bal_no1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet4.bal_no1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet4.bal_no1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.mordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.srfDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostaprintDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.stockmDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.returnsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostad_almgzanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.V_TranRIostaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.mordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.srfRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostaprintRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.stockmRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.returnsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostad_almgzanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.V_TranRIostaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet7.mordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.srfRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostaprintRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.stockmRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.returnsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.ostad_almgzanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7.V_TranRIostaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.mordTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.srfTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.ostaprintTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.stockmTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.bal_no1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.dbm_CDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.DataSet_c.estelamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet_c.estelamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet_c.estelamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet_c">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSet_cTableAdapters.estelamTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet_c)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.DataSet3.f_arrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.t_rettDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.pointtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.stockmDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.tt_talfDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.f_arrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.t_rettRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.pointtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.stockmRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.tt_talfRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet3.f_arrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet3.t_rettRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet3.pointtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet3.stockmRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet3.tt_talfRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.f_arrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.t_rettTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.pointtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.stockmTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.tt_talfTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.DataSet6.inbayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_estDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.R_ostaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.movesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_clsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.inbayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_estRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.R_ostaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.movesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_clsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSet6.inbayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_estRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet6.R_ostaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet6.movesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet6.View_clsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.inbayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.View_estTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.R_ostaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.movesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.View_clsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.stockmDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg11DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.movesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.stockmRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg11Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.movesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.stockmRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.tg11RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1.movesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.bal_no1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.R_ostaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.stockmTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.tg1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.tg11TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.movesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.dbm_CDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
@@ -314,58 +1062,6 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
-</member><member name="T:Wind_stock.DataSet_c.estelamDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet_c.estelamRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet_c.estelamRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet_c">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet_cTableAdapters.estelamTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet_c,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet_c)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.DataSet_cTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
 </member><member name="T:Wind_stock.DataSet5.DataTable1DataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -394,18 +1090,73 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="P:Wind_stock.My.Resources.Resources.ResourceManager">
+</member><member name="T:Wind_stock.DataSetsara.estelamDataTable">
 	<summary>
-  Returns the cached ResourceManager instance used by this class.
+Represents the strongly named DataTable class.
 </summary>
-</member><member name="P:Wind_stock.My.Resources.Resources.Culture">
+</member><member name="T:Wind_stock.DataSetsara.msrofattDataTable">
 	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:Wind_stock.My.Resources.Resources">
+</member><member name="T:Wind_stock.DataSetsara.estelamRow">
 	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSetsara.msrofattRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wind_stock.DataSetsara.estelamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSetsara.msrofattRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wind_stock.DataSetsara">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wind_stock.DataSetsaraTableAdapters.estelamTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wind_stock.DataSetsaraTableAdapters.msrofattTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSetsara,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSetsara)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wind_stock.DataSetsaraTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
 </member><member name="T:Wind_stock.dbmDataSet_stock.View_stockDataTable">
 	<summary>
@@ -459,769 +1210,18 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
-</member><member name="T:Wind_stock.DataSet1.card_naDataTable">
+</member><member name="P:Wind_stock.My.Resources.Resources.ResourceManager">
 	<summary>
-Represents the strongly named DataTable class.
+  Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="T:Wind_stock.DataSet1.hrkDataTable">
+</member><member name="P:Wind_stock.My.Resources.Resources.Culture">
 	<summary>
-Represents the strongly named DataTable class.
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="T:Wind_stock.DataSet1.inbayDataTable">
+</member><member name="T:Wind_stock.My.Resources.Resources">
 	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.matt_kDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.moves_prodcfDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.msrofatDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.bal_no1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.estelamDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.View_clsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.card_naRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.hrkRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.inbayRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.matt_kRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.moves_prodcfRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.msrofatRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.bal_no1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.estelamRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.View_clsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet1.card_naRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.hrkRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.inbayRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.matt_kRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.moves_prodcfRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.msrofatRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.bal_no1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.estelamRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1.View_clsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.card_naTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.hrkTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.inbayTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.matt_kTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.moves_prodcfTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.msrofatTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.bal_no1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.estelamTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.View_clsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet1)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.DataSet1TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.bal_no1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet.DataTable1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.bal_no1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.DataTable1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.dbm_CDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateAll(Wind_stock.dbm_CDataSet)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSetTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Wind_stock.DataSet4.bal_no1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet4.bal_no1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet4.bal_no1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet4">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.mordDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.srfDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostaprintDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.stockmDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.returnsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostad_almgzanDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.V_TranRIostaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.mordRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.srfRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostaprintRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.stockmRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.returnsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostad_almgzanRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.V_TranRIostaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet7.mordRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.srfRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostaprintRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.stockmRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.returnsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.ostad_almgzanRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7.V_TranRIostaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet7">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.mordTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.srfTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.ostaprintTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.stockmTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet7)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.DataSet7TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.stockmDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg11DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.movesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.stockmRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg11Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.movesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.bal_no1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.R_ostaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.stockmRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.tg11RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1.movesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.bal_no1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.R_ostaTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.stockmTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.tg1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.tg11TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.movesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.dbm_CDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.dbm_CDataSet1)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.dbm_CDataSet1TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Wind_stock.DataSet3.f_arrDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.t_rettDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.pointtDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.stockmDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.tt_talfDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.f_arrRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.t_rettRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.pointtRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.stockmRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.tt_talfRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet3.f_arrRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet3.t_rettRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet3.pointtRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet3.stockmRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet3.tt_talfRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet3">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.f_arrTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.t_rettTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.pointtTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.stockmTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.tt_talfTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet3)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.DataSet3TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Wind_stock.DataSet6.inbayDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_estDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.R_ostaDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.movesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_clsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.inbayRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_estRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.R_ostaRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.movesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_clsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Wind_stock.DataSet6.inbayRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_estRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet6.R_ostaRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet6.movesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet6.View_clsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Wind_stock.DataSet6">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.inbayTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.View_estTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.R_ostaTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.movesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.View_clsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Wind_stock.DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateAll(Wind_stock.DataSet6)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Wind_stock.DataSet6TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

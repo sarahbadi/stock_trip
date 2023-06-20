@@ -380,6 +380,7 @@ Public Class Form_s
 
 
     Private Sub Form_s_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
         Label5.Text = ""
         Me.dtYear.Value = dateNowDB
         Me.DateTimePicker3.Value = dateNowDB
@@ -413,6 +414,7 @@ Public Class Form_s
         ComboBox3.DisplayMember = "ksf.n_type"
         ComboBox3.ValueMember = "type_k"
         ComboBox3.SelectedIndex = -1
+        ComboBox3.SelectedValue = ssf_t
         '-----------------------------
         cn.Close()
         langarabic()
